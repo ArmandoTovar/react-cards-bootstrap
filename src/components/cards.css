@@ -1,0 +1,149 @@
+
+.Padre:nth-child(1),.Padre:nth-child(3),.Padre:nth-child(4),.Padre:nth-child(6)
+{
+    position: relative;
+    max-width: 455.21px;
+    height: auto;
+    width: 33%;
+    margin-bottom: 10%;
+    display: inline-block;
+}
+.Padre:nth-child(2), .Padre:nth-child(5) {
+    position: relative;
+    max-width: 455.21px;
+    width: 33%;
+    height: auto;
+    top: 50px;
+    display: inline-block;
+}
+
+.Texto-Horizontal {
+    position: absolute;
+    width: 120px;
+    height: 25px;
+    left: 190px;
+    top: 70px;
+    font-family: 'PT Serif';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    /* identical to box height */
+    text-transform: uppercase;
+    color: #000000;
+    transform: rotate(90deg);
+}
+.Titulo {
+    width: 128px;
+    height: 27px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 57px;
+    /* identical to box height */
+    color: #000000;
+}
+img {
+    max-width: 238px;
+    height: auto;
+    width: 90%;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+.Final {
+    position: relative;
+    width: 100%;
+    max-width:1000px;
+    height: 17px;
+    margin: 0 auto;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    text-align: center;
+    color: #A9A9A9;
+}
+.Foto{
+    display:block;
+    position:relative;
+   margin:5% auto;
+}
+@media (max-width: 700px) {
+    .Padre:nth-child(odd) {
+        position: relative;
+        max-width: 455.21px;
+        height: auto;
+        width: 45%;
+        margin-bottom: 10%;
+        margin-left:20px;
+        display: inline-block;
+    }
+
+    .Padre:nth-child(even) {
+        position: relative;
+        max-width: 455.21px;
+        width: 45%;
+        height: auto;
+        top:50px;
+        margin-left: 20px;
+        display: inline-block;
+    }
+
+    .Texto-Horizontal {
+        position: absolute;
+      
+        width: 110px;
+        height: 25px;
+        left:155px;
+     
+        font-family: 'PT Serif';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 16px;
+        /* identical to box height */
+        text-transform: uppercase;
+        color: #000000;
+        transform: rotate(90deg);
+    }
+
+    .Titulo {
+        width: 128px;
+        height: 27px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 40px;
+        /* identical to box height */
+        color: #000000;
+    }
+
+
+    .Final {
+        position: relative;
+        width: 100%;
+        height: 17px;
+        margin: 0 auto;
+        display:block;
+        top:105%;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 17px;
+        /* identical to box height */
+        text-align: center;
+        color: #A9A9A9;
+    }
+
+    .Foto {
+        display: block;
+        position: absolute;
+        margin: 300px auto;
+    }
+ 
+}

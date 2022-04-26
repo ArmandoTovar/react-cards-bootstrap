@@ -1,0 +1,117 @@
+
+.App {
+    position:relative;
+    margin-left: auto;
+    margin-right: auto;
+
+    max-width: 1440px;
+}
+h1 {
+    position: relative;
+    width: 70%;
+    max-width:740px;
+
+    height: 47px;
+    display: inline-block;
+    top: 110px;
+    font-family: 'PT Serif';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: -0.045em;
+}
+.Quien {
+    position: relative;
+    width: 30%;
+    
+    height: 27px;
+    display:inline-block;
+    top:150px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    /* identical to box height */
+
+    text-transform: uppercase;
+    color: #000000;
+}
+.Parrafo {
+    position: relative;
+    width: 30%;
+    max-width:400px;
+    height: 87px;
+ 
+    margin-top: 150px;
+    left: 50%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #000000;
+    display: inline-block;
+}
+
+@media (max-width: 700px) {
+    .App {
+        position: relative;
+        margin: 0 auto;
+        width: 500px;
+        height: 1409px;
+        left: 0px;
+        top: 0px;
+    
+    }
+
+    h1 {
+        position: absolute;
+        width: 278px;
+        height: 47px;
+        left: 12px;
+        top: 71px;
+      
+        font-family: 'PT Serif';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 45px;
+        line-height: 48px;
+        letter-spacing: -0.045em;
+        color: #000000;
+    }
+
+    .Quien {
+        position: absolute;
+        width: 130px;
+        height: 27px;
+        left: 12px;
+        top: 156px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 27px;
+        /* identical to22 box height */
+
+        text-transform: uppercase;
+        color: #000000;
+    }
+
+    .Parrafo {
+        position: absolute;
+        width: 333px;
+        height: 87px;
+        margin: 0px;
+        left: 12px;
+        top: 193px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 21px;
+        color: #000000;
+    }
+}
+
